@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+  font-family: 'Segoe UI';
+
+}
+header {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  background-color: #263238;
+  width: 800px;
+  height: 70px;
+  margin: 0 auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.75);
+  box-shadow: 0 0 10px rgba(0,0,0,0.75);
+}
+header h1 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: 0 0 2px #000;
+  color: #fff;
+}
+.desktop_nav {
+  width: 720px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgb(7, 169, 249);
+  height: 32px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.75);
+  box-shadow: 0 0 3px rgba(0,0,0,0.75);
+}
+.desktop_nav ul {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+}
+.desktop_nav ul li {
+  list-style: none;
+  border-left: 1px solid rgba(0,0,0,0.1);
+  margin-bottom: 2px;
+}
+.desktop_nav ul li:first-child {
+  border-left: none;
+}
+.desktop_nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  margin: 0 40px;
+  text-transform: uppercase;
+}

@@ -21,7 +21,7 @@ a:hover {
   width: 758px;
   margin: 0 auto;
 }
-.header {
+header {
   padding: 30px 0 0 0;
   margin-bottom: 20px;
 }
@@ -92,7 +92,7 @@ a:hover {
 .right_bar h1 {
   font-family: Georgia;
 }
-.footer {
+footer {
   padding: 15px 0 20px 30px;
   color: #b4b3b6;
 }
