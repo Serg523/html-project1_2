@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400&subset=cyrillic');
 * {
   margin: 0;
   padding: 0;
 }
 body {
   background-color: #fff;
-  font-family: 'Segoe UI';
-
+  background-image: url('../img/bg.jpg');
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #f5f5f5;
 }
 header {
   display: -webkit-flex;
@@ -15,23 +21,22 @@ header {
   -ms-align-items: center;
   align-items: center;
   background-color: #263238;
-  width: 800px;
-  height: 70px;
+  width: 900px;
+  height: 60px;
   margin: 0 auto;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.75);
-  box-shadow: 0 0 10px rgba(0,0,0,0.75);
+
 }
 header h1 {
-  margin-bottom: 10px;
+  margin-bottom: 4px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   text-shadow: 0 0 2px #000;
   color: #fff;
 }
 .desktop_nav {
-  width: 720px;
+  width: 690px;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -39,25 +44,22 @@ header h1 {
   -ms-align-items: center;
   align-items: center;
   overflow: hidden;
-  background-color: rgb(7, 169, 249);
+  background-color: lawngreen;
   height: 32px;
-  margin-top: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
-  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.75);
-  box-shadow: 0 0 3px rgba(0,0,0,0.75);
+  
 }
 .desktop_nav ul {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-
 }
 .desktop_nav ul li {
   list-style: none;
-  border-left: 1px solid rgba(0,0,0,0.1);
-  margin-bottom: 2px;
+  border-left: 1px solid rgba(0,0,0,0.2);
 }
 .desktop_nav ul li:first-child {
   border-left: none;
@@ -65,7 +67,8 @@ header h1 {
 .desktop_nav ul li a {
   display: block;
   text-decoration: none;
-  color: #000;
+  color: #212121;
   margin: 0 40px;
   text-transform: uppercase;
+  font-weight: 400;
 }
